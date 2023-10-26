@@ -9,6 +9,7 @@ This project was setup to showcase irregularities between TestComplete and TestE
 - Run the below command, choosing between TestComplete or TestExecute
 
 `TestComplete.exe "C:\Testing\TestLogging\TestLogging.pjs" /r /p:TestLogging /t:"@TestScenario" /ExportLog:"C:\Testing\log.mht" /ExportSummary:"C:\Testing\log.xml" /Exit /SilentMode`
+
 `TestExecute.exe "C:\Testing\TestLogging\TestLogging.pjs" /r /p:TestLogging /t:"@TestScenario" /ExportLog:"C:\Testing\log.mht" /ExportSummary:"C:\Testing\log.xml" /Exit /SilentMode`
 
 
