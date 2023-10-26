@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="131"/>
+						<Prp name="name" type="S" value="Test a bit of logging when run via command line (uid:69fb18a4-fa5f-45fc-9754-77350389638e)"/>
+						<Prp name="duration" type="I" value="131"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45226.3442791319"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzAEYARgBBAEEAMQBBADcALQAxADcAMgAxAC0ANAA1ADgANgAtADkAQwAzADQALQA0AEMAMQA0AEYAOAAwADQAMgBFADUANAB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+					</Node>
+				</Node>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TestLogging"/>
+				<Prp name="duration" type="I" value="131"/>
+				<Prp name="starttime" type="D" value="45226.3442791319"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="user" type="S" value="roessnerj"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="testname" type="S" value="Test a bit of logging when run via command line (uid:69fb18a4-fa5f-45fc-9754-77350389638e)"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="45226.3442733333"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="host" type="S" value="RSLLT310"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{0E8D5149-0BB3-4CCC-A98A-870EC947E34E}"/>
+		<Prp name="name" type="S" value="TestLogging"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="stop" type="D" value="45226.3442815278"/>
+	</Node>
+</Nodes>

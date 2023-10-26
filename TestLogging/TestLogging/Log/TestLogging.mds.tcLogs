@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45226.342108669"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{65A81762-E094-4C1B-A7C2-CD6AB5C15782}"/>
+				<Prp name="nameofroot" type="S" value="Test a bit of logging when run via command line (uid:69fb18a4-fa5f-45fc-9754-77350389638e)"/>
+				<Prp name="relpath" type="S" value="27_10_2023_8_12 am_38_189\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45226.3430222569"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{45D57103-3D29-4D4D-8A36-AA3EE144FC14}"/>
+				<Prp name="nameofroot" type="S" value="A test step that will log the following text &quot;The example data is FreshPackApples&quot;"/>
+				<Prp name="relpath" type="S" value="27_10_2023_8_13 am_57_123\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45226.3442732755"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{16EFDB6B-353F-448A-807C-70970C6B4AFE}"/>
+				<Prp name="nameofroot" type="S" value="Test a bit of logging when run via command line (uid:69fb18a4-fa5f-45fc-9754-77350389638e)"/>
+				<Prp name="relpath" type="S" value="27_10_2023_8_15 am_45_211\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45226.3447058218"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9231E928-782C-451E-ACA8-AE439B86BB1A}"/>
+				<Prp name="nameofroot" type="S" value="Test a bit of logging when run via command line (uid:69fb18a4-fa5f-45fc-9754-77350389638e)"/>
+				<Prp name="relpath" type="S" value="27_10_2023_8_16 am_22_583\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45226.3450497338"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{33D1BA99-5C4F-4CEC-94FF-B5701480E4E4}"/>
+				<Prp name="nameofroot" type="S" value="Test a bit of logging when run via command line (uid:69fb18a4-fa5f-45fc-9754-77350389638e)"/>
+				<Prp name="relpath" type="S" value="27_10_2023_8_16 am_52_297\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45226.3474509143"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{ECF30A28-7133-41CB-B187-2B7584B60069}"/>
+				<Prp name="nameofroot" type="S" value="TestLogging [@TestScenario]"/>
+				<Prp name="relpath" type="S" value="27_10_2023_8_20 am_19_759\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

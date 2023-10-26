@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="units"/>
+		<Node name="child data">
+			<Prp name="child 1" type="S" value="{49CDE08A-C8AB-4D79-8CD8-F1CF894F2A2E}"/>
+			<Prp name="child 0" type="S" value="{E7F0112D-5D60-47DA-A542-FB3BC08E2A01}"/>
+			<Prp name="child 2" type="S" value="{6F26D615-9D9A-4B94-8F92-B159BB1C4453}"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="date" type="D" value="45226.3474548032"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Test a bit of logging when run via command line (uid:69fb18a4-fa5f-45fc-9754-77350389638e) [example_data: Example 1, hiptest-uid: uid:e9eca548-70b6-4541-882a-0e6ad4eb711b]"/>
+			<Prp name="link" type="S" value="&lt;a rel=&quot;child&quot; href=&quot;0&quot;&gt;Details&lt;/a&gt;"/>
+			<Prp name="type" type="I" value="6"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;This test has a log associated with it.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;logchild://{E7F0112D-5D60-47DA-A542-FB3BC08E2A01}&quot;&gt;View detailed logs&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="date" type="D" value="45226.3474577546"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Test a bit of logging when run via command line (uid:69fb18a4-fa5f-45fc-9754-77350389638e) [example_data: Example 3, hiptest-uid: uid:e9eca548-70b6-4541-882a-0e6ad4eb711b]"/>
+			<Prp name="link" type="S" value="&lt;a rel=&quot;child&quot; href=&quot;2&quot;&gt;Details&lt;/a&gt;"/>
+			<Prp name="type" type="I" value="6"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;This test has a log associated with it.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;logchild://{6F26D615-9D9A-4B94-8F92-B159BB1C4453}&quot;&gt;View detailed logs&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="2"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 1">
+			<Prp name="date" type="D" value="45226.3474563194"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Test a bit of logging when run via command line (uid:69fb18a4-fa5f-45fc-9754-77350389638e) [example_data: Example 2, hiptest-uid: uid:e9eca548-70b6-4541-882a-0e6ad4eb711b]"/>
+			<Prp name="link" type="S" value="&lt;a rel=&quot;child&quot; href=&quot;1&quot;&gt;Details&lt;/a&gt;"/>
+			<Prp name="type" type="I" value="6"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;This test has a log associated with it.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;logchild://{49CDE08A-C8AB-4D79-8CD8-F1CF894F2A2E}&quot;&gt;View detailed logs&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="id" type="I" value="1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>
